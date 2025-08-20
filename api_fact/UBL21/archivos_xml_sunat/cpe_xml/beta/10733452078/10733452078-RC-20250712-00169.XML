@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="iso-8859-1" standalone="no"?>
+<SummaryDocuments xmlns="urn:sunat:names:specification:ubl:peru:schema:xsd:SummaryDocuments-1" xmlns:cac="urn:oasis:names:specification:ubl:schema:xsd:CommonAggregateComponents-2" xmlns:cbc="urn:oasis:names:specification:ubl:schema:xsd:CommonBasicComponents-2" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:ext="urn:oasis:names:specification:ubl:schema:xsd:CommonExtensionComponents-2" xmlns:sac="urn:sunat:names:specification:ubl:peru:schema:xsd:SunatAggregateComponents-1" xmlns:qdt="urn:oasis:names:specification:ubl:schema:xsd:QualifiedDatatypes-2" xmlns:udt="urn:un:unece:uncefact:data:specification:UnqualifiedDataTypesSchemaModule:2">
+        <ext:UBLExtensions>
+            <ext:UBLExtension>
+                            <ext:ExtensionContent>
+                <ds:Signature Id="SignatureSP"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/><ds:SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/><ds:Reference URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>tOP7NJQVgWDNSpb9hHgMQ+bJ30E=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>XDTM/lTBruzc9ajeKFn5p1KLw105uPvz2t8KXr9fTcD5izvl0actehgtJeg332xU7fXCEF+cQlk/MPYsK4csD5RfPpndVC0tE9Ufh7cj05AfLW0Cq2BXLA7L3LS0Gxv/Kbfse/4wEn42VdCDfy7LGFhOU+cEwYTg5lXjr7hNMOi05zgryQeufQC40Ro00CeAge7pFqK+LtiEAwiiCcap7G57FxGCc2DLQEiZnJoeHeWYP4DwlzwNcvM5SZwWEOo+dz86m/uTvBxz1b5wgaUsLdP2uhkG4CvDy6gtp5HmmBYycfoR0U2M6JE81eltyUPzeyeCENqxejU6ceooqi7UUQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFCDCCA/CgAwIBAgIJAJV+Wjx9mSk6MA0GCSqGSIb3DQEBCwUAMIIBDTEbMBkGCgmSJomT8ixkARkWC0xMQU1BLlBFIFNBMQswCQYDVQQGEwJQRTENMAsGA1UECAwETElNQTENMAsGA1UEBwwETElNQTEYMBYGA1UECgwPVFUgRU1QUkVTQSBTLkEuMUUwQwYDVQQLDDxETkkgOTk5OTk5OSBSVUMgMTA3MzM0NTIwNzggLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xRDBCBgNVBAMMO05PTUJSRSBSRVBSRVNFTlRBTlRFIExFR0FMIC0gQ0VSVElGSUNBRE8gUEFSQSBERU1PU1RSQUNJw5NOMRwwGgYJKoZIhvcNAQkBFg1kZW1vQGxsYW1hLnBlMB4XDTI1MDcxMDAxNDEwN1oXDTI3MDcxMDAxNDEwN1owggENMRswGQYKCZImiZPyLGQBGRYLTExBTUEuUEUgU0ExCzAJBgNVBAYTAlBFMQ0wCwYDVQQIDARMSU1BMQ0wCwYDVQQHDARMSU1BMRgwFgYDVQQKDA9UVSBFTVBSRVNBIFMuQS4xRTBDBgNVBAsMPEROSSA5OTk5OTk5IFJVQyAxMDczMzQ1MjA3OCAtIENFUlRJRklDQURPIFBBUkEgREVNT1NUUkFDScOTTjFEMEIGA1UEAww7Tk9NQlJFIFJFUFJFU0VOVEFOVEUgTEVHQUwgLSBDRVJUSUZJQ0FETyBQQVJBIERFTU9TVFJBQ0nDk04xHDAaBgkqhkiG9w0BCQEWDWRlbW9AbGxhbWEucGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDu0kLfrtAV/C9m7DUVuaI0aCnHDOey+T12cf6qz2Zz1OC9OAf+gaHJgBeAVlbs38dqvoXNYDLbDq3GFASRyB11Iw1ppNkrg06MBE1cilFAjJk/t4VD95VI9g/zcj0Tp+CteeFRnUimKU4eTra3gJeW00iiEyk6cS9UZGG8D8/59MRzlCxbKIpU21FTlCQeLO6OhYwZ7RpA4qys9SGxUphfUwt+4sjV/iIgD8rVxPcqSp3w7leK3xqje0l3cb7pyjMqcXs28uR/vst7vV9Cbjh27uFLXwiGAHbWYgZkwKRmNQLiVWpSJSSGtNYUMgO1LIIsYN1U/Ef9EfHDqWTbDjspAgMBAAGjZzBlMB0GA1UdDgQWBBT+8N4ggt8HMGrcGgIZQKq/P8S/BzAfBgNVHSMEGDAWgBT+8N4ggt8HMGrcGgIZQKq/P8S/BzATBgNVHSUEDDAKBggrBgEFBQcDATAOBgNVHQ8BAf8EBAMCB4AwDQYJKoZIhvcNAQELBQADggEBADponQEW9EU2M+onNY/KjHrOEirtxB0YZetVL38G4rWWxUHzO6aIWc9Ryp24V1kSyIc1ytzDslNDmFzC4torjOjfYalnV2svB2ksLvo3mVDC9ga4stEUosUWlQrvhSVzBIK977FAMg9+uKoXQHxUfAcqQDgYca580a9mflzUzTbAdVqpEqqDM0fJSUmCdPMCrnYhXlMqdJNy6SfnONLvpOBzLjhIflbF1Dh5O7rc4lyiw/lozN1lKxvZB6EmY5m+YtUK1bmry84TYr9ZVbU8KHMgAFCq54kZtEo666q3XiZGAlCi9PnIeWPNJESnbBAUoyfoPJlLMqR0wfdI5T73sbA=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature></ext:ExtensionContent>
+            </ext:UBLExtension>
+        </ext:UBLExtensions>
+        <cbc:UBLVersionID>2.0</cbc:UBLVersionID>
+        <cbc:CustomizationID>1.1</cbc:CustomizationID>
+        <cbc:ID>RC-20250712-00169</cbc:ID>
+        <cbc:ReferenceDate>2025-07-12</cbc:ReferenceDate>
+        <cbc:IssueDate>2025-07-12</cbc:IssueDate>
+        <cac:Signature>
+            <cbc:ID>RC-20250712-00169</cbc:ID>
+            <cac:SignatoryParty>
+                <cac:PartyIdentification>
+                    <cbc:ID>10733452078</cbc:ID>
+                </cac:PartyIdentification>
+                <cac:PartyName>
+                    <cbc:Name><![CDATA[MEZA DIAZ OMAR ESTEBAN]]></cbc:Name>
+                </cac:PartyName>
+            </cac:SignatoryParty>
+            <cac:DigitalSignatureAttachment>
+                <cac:ExternalReference>
+                    <cbc:URI>RC-20250712-00169</cbc:URI>
+                </cac:ExternalReference>
+            </cac:DigitalSignatureAttachment>
+        </cac:Signature>
+        <cac:AccountingSupplierParty>
+            <cbc:CustomerAssignedAccountID>10733452078</cbc:CustomerAssignedAccountID>
+            <cbc:AdditionalAccountID>6</cbc:AdditionalAccountID>
+            <cac:Party>
+                <cac:PartyLegalEntity>
+                    <cbc:RegistrationName><![CDATA[MEZA DIAZ OMAR ESTEBAN]]></cbc:RegistrationName>
+                </cac:PartyLegalEntity>
+            </cac:Party>
+        </cac:AccountingSupplierParty><sac:SummaryDocumentsLine>
+            <cbc:LineID>1</cbc:LineID>
+            <cbc:DocumentTypeCode>03</cbc:DocumentTypeCode>
+            <cbc:ID>B003-00024772</cbc:ID>
+            <cac:AccountingCustomerParty>
+                <cbc:CustomerAssignedAccountID>00127330</cbc:CustomerAssignedAccountID>
+                <cbc:AdditionalAccountID>1</cbc:AdditionalAccountID>
+            </cac:AccountingCustomerParty><cac:Status>
+                <cbc:ConditionCode>3</cbc:ConditionCode>
+            </cac:Status>                
+            <sac:TotalAmount currencyID="PEN">96.00</sac:TotalAmount><sac:BillingPayment>
+                <cbc:PaidAmount currencyID="PEN">81.36</cbc:PaidAmount>
+                <cbc:InstructionID>01</cbc:InstructionID>
+            </sac:BillingPayment><cac:TaxTotal>
+                <cbc:TaxAmount currencyID="PEN">14.64</cbc:TaxAmount>
+                <cac:TaxSubtotal>
+                    <cbc:TaxAmount currencyID="PEN">14.64</cbc:TaxAmount>
+                    <cac:TaxCategory>
+                        <cac:TaxScheme>
+                            <cbc:ID>1000</cbc:ID>
+                            <cbc:Name>IGV</cbc:Name>
+                            <cbc:TaxTypeCode>VAT</cbc:TaxTypeCode>
+                        </cac:TaxScheme>
+                    </cac:TaxCategory>
+                </cac:TaxSubtotal></cac:TaxTotal></sac:SummaryDocumentsLine></SummaryDocuments>
