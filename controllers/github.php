@@ -41,10 +41,12 @@ class Github extends Controller {
             // Puedes usar la función `exec` o `shell_exec`.
             // Es vital que sepas lo que haces y tomes las precauciones de seguridad adecuadas.
             exec('git pull origin main');
-            
+
             echo "¡Actualización de código exitosa!";
 
         } else {
+
+            
 
             header('Content-Type: application/json');
             echo json_encode(["Mensaje"=> "Evento recibido: ".$event]);
