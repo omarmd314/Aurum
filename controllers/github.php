@@ -7,8 +7,6 @@ class Github extends Controller {
     $secret = '#Realmadrid7';
 
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
-
-
         // Asegúrate de que la solicitud provenga de GitHub.
         //$signature = ;
         if (!isset($_SERVER['HTTP_X_HUB_SIGNATURE_256'])) {
