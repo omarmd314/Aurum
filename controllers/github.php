@@ -45,9 +45,6 @@ class Github extends Controller {
             echo "¡Actualización de código exitosa!";
 
         } else {
-
-            
-
             header('Content-Type: application/json');
             echo json_encode(["Mensaje"=> "Evento recibido: ".$event]);
         }
