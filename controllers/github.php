@@ -38,7 +38,7 @@ class Github extends Controller {
             // Asegúrate de que el usuario de Apache (www-data) tenga permisos para ejecutar 'git'.
             // Puedes usar la función `exec` o `shell_exec`.
             // Es vital que sepas lo que haces y tomes las precauciones de seguridad adecuadas.
-            //exec('git pull');
+            exec('git pull origin main');
             header('Content-Type: application/json');
             echo json_encode(["Mensaje"=> "¡Actualización de código exitosa!" ]);
 
